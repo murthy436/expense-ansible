@@ -4,7 +4,7 @@
   vars:
     login_host: db.aws78s.online
   vars_prompt:
-  - name: my_sql_root_password
+  - name: mysql_root_password
     prompt: Please enter the root password
     private: no
   tasks:
