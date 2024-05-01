@@ -8,7 +8,7 @@
       state: latest
 
   - name: start and enable nginx
-    ansible.builtin.serivce:
+    ansible.builtin.service:
       name: nginx
       state: strated
       enabled: yes
