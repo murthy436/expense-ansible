@@ -69,7 +69,7 @@
       demon_reload: true
 
   - name: start and enabled backend serive
-    ansible.builtin.serivce:
+    ansible.builtin.service:
       name: backend
       state: started
       enabled: yes
