@@ -10,7 +10,7 @@
   - name: start and enable nginx
     ansible.builtin.service:
       name: nginx
-      state: strated
+      state: started
       enabled: yes
 
   - name: delete old file
@@ -37,4 +37,4 @@
   - name: restart nginx
     ansible.builtin.service:
       name: nginx
-      state: reloaded
+      state: restarted
